@@ -4,7 +4,7 @@
     <li v-for="todo in todos" :key="todo">
       <h4>{{ todo.title }}</h4>
       <h3>{{ $store.state.message }}</h3>
-      是否完成? <input type="checkbox" v-model="todo.completed">
+      是否完成?? <input type="checkbox" v-model="todo.completed">
     </li>
   </ol>
 </template>
